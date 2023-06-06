@@ -17,7 +17,7 @@ COPY *.cpp /root/server/
 COPY *.h /root/server/
 COPY *.pro /root/server/
 
-RUN qmake server.pro
-RUN make server
+RUN qmake exam.pro
+RUN make exam
 
-ENTRYPOINT ["./server"]
+ENTRYPOINT ["./exam"]
