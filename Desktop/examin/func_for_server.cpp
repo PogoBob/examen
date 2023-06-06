@@ -2,6 +2,7 @@
 #include <QString>
 #include <QPointF>
 #include <QVector>
+#include <QtMath>
 
 /**
  * @brief Функция разбора запроса от клиента.
